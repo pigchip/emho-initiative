@@ -102,7 +102,7 @@ export default function App({ initialPath = pathFromLocation() }: { initialPath?
     <main id="main">
       {path === '' && <>
         <section className="hero wrap">
-          <div className="hero-label"><span className="status-dot" />{t(text('OPEN IDEAS. REAL POSSIBILITIES.', 'IDEAS ABIERTAS. POSIBILIDADES REALES.'))}</div>
+          <div className="hero-label">{t(text('OPEN IDEAS. REAL POSSIBILITIES.', 'IDEAS ABIERTAS. POSIBILIDADES REALES.'))}</div>
           <h1>{t(text('Knowledge,', 'Conocimiento,'))}<br /><em>{t(text('shared.', 'compartido.'))}</em><span className="hero-spark" aria-hidden="true">✳</span></h1>
           <div className="hero-bottom"><p>{t(text('Thoughtful tools for curious minds. We build free learning experiences that bring people, knowledge, and AI together.', 'Herramientas conscientes para mentes curiosas. Creamos experiencias gratuitas que conectan personas, conocimiento e IA.'))}</p>
             <a className="button primary" href="#projects">{t(text('Find your next discovery', 'Encuentra tu próximo descubrimiento'))}<ArrowDownIcon /></a>
